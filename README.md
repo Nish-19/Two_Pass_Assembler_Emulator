@@ -43,6 +43,10 @@ Assembler and Emulator implementation in C Language for the given Assembly Langu
 Test cases consists of sample programs written in the simple assembly language. There are a total of 10 such programs. Test cases are present in the folder cs33testcases. The listing and object file obtained after execution from the assembler is also provided.
 
 ## Compiling and Running
+
+![image](https://user-images.githubusercontent.com/41947720/102637661-57d10b80-417c-11eb-8a4c-0238e6dc7a3d.png)
+
+
 1) For assembler
 gcc asm.c -o asm
 
@@ -55,3 +59,18 @@ Assembler -
 
 Emulator -
 ./emu cs33testcases/filename_obj.o
+
+### Sample Execution
+
+Compiling and linking the bubble sort program written in the assembly Language
+
+./asm cs33bubble.asm
+./emu cs33bubble_obj.o
+
+Before sorting (numbers in random order)
+
+![image](https://user-images.githubusercontent.com/41947720/102637811-98c92000-417c-11eb-860d-b6f0a0277076.png)
+
+After soring (numbers in sorted order)
+
+![image](https://user-images.githubusercontent.com/41947720/102637881-b0080d80-417c-11eb-911e-a579c1df9db7.png)
