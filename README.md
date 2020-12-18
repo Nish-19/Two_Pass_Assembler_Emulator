@@ -38,6 +38,10 @@ Assembler and Emulator implementation in C Language for the given Assembly Langu
 * Does automatic trace i.e at each step displays the value of PC, SP, reg A, and Reg B
 * Does automatic memory dump, before and after the program to show the state of memory elements.
 
+## TestCases
+
+Test cases consists of sample programs written in the simple assembly language. There are a total of 10 such programs. Test cases are present in the folder cs33testcases. The listing and object file obtained after execution from the assembler is also provided.
+
 ## Compiling and Running
 1) For assembler
 gcc asm.c -o asm
