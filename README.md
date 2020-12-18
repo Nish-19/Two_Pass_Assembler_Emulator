@@ -1,4 +1,4 @@
-# Two_Pass_Assembler
+# Two_Pass_Assembler_Emulator
 
 Assembler and Emulator implementation in C Language for the given Assembly Language. Project as a part of CS321-CS322 Computer Architecture Course IIT-Patna.
 
