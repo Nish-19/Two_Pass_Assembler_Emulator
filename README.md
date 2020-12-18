@@ -17,3 +17,5 @@ Assembler and Emulator implementation in C Language for the given Assembly Langu
 * Label Name is alpha_numberic
 * Label used to calculate displacement in case of branch instructions.
 * An operand is either a label or a number, the number can be decimal, hex or octal.
+
+<img width="581" alt="instructions" src="https://user-images.githubusercontent.com/41947720/102636143-4ab31d00-417a-11eb-9676-a6e4798f2a0e.png">
