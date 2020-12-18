@@ -20,6 +20,24 @@ Assembler and Emulator implementation in C Language for the given Assembly Langu
 
 <img width="581" alt="instructions" src="https://user-images.githubusercontent.com/41947720/102636143-4ab31d00-417a-11eb-9676-a6e4798f2a0e.png">
 
+## Assembler
+
+* Has two data structures to store respectively labels and mnemonic table with expected operands.
+* Reads the file once, converts to internal format using linked list and then parses.
+* detects label errors.
+* consistent and sensible formatting with sensible program structure.
+* sensible variable, function & type names with explanatory comments.
+* advanced listing file.
+* assembles ALL test programs.                                 
+* CAN IMPLEMENT and demonstrates the instruction SET.
+
+## Emulator
+
+* Three data structures are used to store respectively memory, 	mnemonic table with expected operands and a linked list structure 	code.
+* loads object file,
+* Does automatic trace i.e at each step displays the value of PC, SP, reg A, and Reg B
+* Does automatic memory dump, before and after the program to show the state of memory elements.
+
 ## Compiling and Running
 1) For assembler
 gcc asm.c -o asm
